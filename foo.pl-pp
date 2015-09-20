@@ -1,0 +1,18 @@
+def potęga a b.
+	newvar wy.
+	loop jest równe b 0.
+
+
+	endloop.
+	result wy.
+enddef.
+
+
+
+
+
+newvar test.
+inp test.
+outp test.
+
+
