@@ -1,8 +1,8 @@
 def potęga a b.
 	newvar wy.
 	loop jest równe b 0.
-
-
+		let wy będzie iloczynem wy oraz a.
+		let b będzie różnicą b oraz 1.
 	endloop.
 	result wy.
 enddef.
@@ -15,4 +15,4 @@ newvar test.
 inp test.
 outp test.
 
-
+let wynik będzie potęga test oraz 3

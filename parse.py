@@ -14,7 +14,9 @@ def parseline(ln, adds):
         'outp': "a teraz makowski napisze mi",
         'newvar': "zdefiniujmy zmienną",
         'newvars': "zdefiniujmy zmienne",
-        'result': "naszym rozwiązaniem jest"}
+        'result': "naszym rozwiązaniem jest",
+        'let': "niech",
+        '': "oraz"}
     for k in words:
         if words[k] in ln:
             if k=="commentend":
@@ -38,7 +40,7 @@ def parsestr(a):
     return res
 
 def parsefile(filein, fileout):
-    f1 = open(filein, mode='r')
+    f1 = open(filein, mode='r', encoding='utf-8')
     ret = parsestr(f1.read())
     f1.close()
     ret2 = ''
