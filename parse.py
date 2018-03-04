@@ -43,8 +43,7 @@ def parsefile(filein, fileout):
     f1 = open(filein, mode='r', encoding='utf-8')
     ret = parsestr(f1.read())
     f1.close()
-    ret2 = ''
-    for i in ret: ret2+=i+'\n'
+    ret2 = .'\n'.join(ret1) + '\n'
     f1 = open(fileout, mode='w')
     f1.write(ret2)
     f1.close()
