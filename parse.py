@@ -14,6 +14,8 @@ def parseline(ln, adds):
         'outp': "a teraz makowski napisze mi",
         'newvar': "zdefiniujmy zmienną",
         'newvars': "zdefiniujmy zmienne",
+        'newlist': "wyjmijcie książkę",
+        'newlists': "wyjmijcie książki",
         'result': "naszym rozwiązaniem jest",
         'let': "niech",
         '': "oraz"}
